@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+    <meta property="og:title" content="Cafe Street" />
+</head>
+<body>
+    <header class="flex" id="header">
+        <h1>
+            <a href="index.html">CafeStreet</a>
+        </h1>
+        <nav id="navbar" class="navbar"></nav>
+        <div class="searchmainbox  flex">
+            <div class="searchBox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="searchbtn" id="searchbtn" placeholder="Capuccino">
+            </div>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
+        <div class="humburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main>
+        <div class="popular pop">Popular <span class="now">Now</span></div>
+        <!-- <div class="bgbox popo"></div> -->
+        <div class="containerForCoffe">
+            <div class="boxcoffe1">
+                <div class="boxcoffe1img">
+                    <div class="ratingbox1">
+                        <p class="forrating">4.8
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="coffeNamebox1">
+                    <div class="vanilalate">
+                        <p>Vanilla Latte</p>
+                        <p>21 K</p>
+                    </div>
+                    <div class="vanilalate1">
+                        <div class="HotorCold">
+                            <p id="hotbtn">Hot</p>
+                            <p id="coldbtn">Cold</p>
+                        </div>
+                        <p class="shopbg" id="buy" ><i class="fa-solid fa-cart-plus"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxcoffe2">
+                <div class="boxcoffe2img">
+                    <div class="ratingbox2">
+                        <p class="forrating">4.8 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                </div>
+                <div class="coffeNamebox2">
+                    <div class="exspreso">
+                        <p>Exspresso</p>
+                        <p>12 K</p>
+                    </div>
+                    <div class="exspreso1">
+                        <div class="HotorCold">
+                            <p id="hotexspreso">Hot</p>
+                            <p id="coldexspreso">Cold</p>
+                        </div>
+                        <p id="buy1" class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxcoffe3">
+                <div class="boxcoffe3img">
+                    <div class="ratingbox3">
+                        <p class="forrating">4.8
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="coffeNamebox3">
+                    <div class="latte">
+                        <p>Hozanlut Latte</p>
+                        <p>18 K</p>
+                    </div>
+                    <div class="latte1">
+                        <div class="HotorCold">
+                            <p id="hotlate">Hot</p>
+                            <p id="coldlate">Cold</p>
+                        </div>
+                        <p id="buy2"  class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- <div class="bgbox"></div> -->
+            <div class="containerForCoffe">
+                <div class="boxcoffe1">
+                    <div class="boxcoffe1img">
+                        <div class="ratingbox1">
+                            <p class="forrating">4.8
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox1">
+                        <div class="vanilalate">
+                            <p>Vanilla Latte</p>
+                            <p>21 K</p>
+                        </div>
+                        <div class="vanilalate1">
+                            <div class="HotorCold">
+                                <p id="hotbtn">Hot</p>
+                                <p id="coldbtn">Cold</p>
+                            </div>
+                            <p class="shopbg" id="buy" ><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxcoffe2">
+                    <div class="boxcoffe2img">
+                        <div class="ratingbox2">
+                            <p class="forrating">4.8 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox2">
+                        <div class="exspreso">
+                            <p>Exspresso</p>
+                            <p>12 K</p>
+                        </div>
+                        <div class="exspreso1">
+                            <div class="HotorCold">
+                                <p id="hotexspreso">Hot</p>
+                                <p id="coldexspreso">Cold</p>
+                            </div>
+                            <p id="buy1" class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxcoffe3">
+                    <div class="boxcoffe3img">
+                        <div class="ratingbox3">
+                            <p class="forrating">4.8
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox3">
+                        <div class="latte">
+                            <p>Hozanlut Latte</p>
+                            <p>18 K</p>
+                        </div>
+                        <div class="latte1">
+                            <div class="HotorCold">
+                                <p id="hotlate">Hot</p>
+                                <p id="coldlate">Cold</p>
+                            </div>
+                            <p id="buy2"  class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="bgbox"></div> -->
+            <div class="containerForCoffe">
+                <div class="boxcoffe1">
+                    <div class="boxcoffe1img">
+                        <div class="ratingbox1">
+                            <p class="forrating">4.8
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox1">
+                        <div class="vanilalate">
+                            <p>Vanilla Latte</p>
+                            <p>21 K</p>
+                        </div>
+                        <div class="vanilalate1">
+                            <div class="HotorCold">
+                                <p id="hotbtn">Hot</p>
+                                <p id="coldbtn">Cold</p>
+                            </div>
+                            <p class="shopbg" id="buy" ><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxcoffe2">
+                    <div class="boxcoffe2img">
+                        <div class="ratingbox2">
+                            <p class="forrating">4.8 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox2">
+                        <div class="exspreso">
+                            <p>Exspresso</p>
+                            <p>12 K</p>
+                        </div>
+                        <div class="exspreso1">
+                            <div class="HotorCold">
+                                <p id="hotexspreso">Hot</p>
+                                <p id="coldexspreso">Cold</p>
+                            </div>
+                            <p id="buy1" class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxcoffe3">
+                    <div class="boxcoffe3img">
+                        <div class="ratingbox3">
+                            <p class="forrating">4.8
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coffeNamebox3">
+                        <div class="latte">
+                            <p>Hozanlut Latte</p>
+                            <p>18 K</p>
+                        </div>
+                        <div class="latte1">
+                            <div class="HotorCold">
+                                <p id="hotlate">Hot</p>
+                                <p id="coldlate">Cold</p>
+                            </div>
+                            <p id="buy2"  class="shopbg"><i class="fa-solid fa-cart-plus"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="massagebutton" onclick="massageBoxOn()"><i class="fa-brands fa-facebook-messenger"></i></div>
+        <div class="massageBox" id="massagebox">
+            <div class="msgboxHeader">
+                <p>Chat with us</p>
+                <p class="closechat" onclick="massageBoxOff()"><i class="fa-solid fa-rectangle-xmark"></i></p>
+            </div>
+            <div class="msgboxmain">
+                <input type="text" name="firstname" id="firstname" placeholder="Enter your name">
+                <textarea name="massage" id="masssage" cols="30" rows="5" placeholder="Please enter your massage here!"></textarea>
+            </div>
+            <div class="msgboxsend" onclick="massageBoxOff()">send</div>
+        </div>
+        <div class="upperscroll">
+            <a href="#header"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+    </main>
+    <footer>
+        <div class="foter">
+            <div class="foterbox1">
+                <p class="foteribigtxt">social media</p>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+996-89-98-9887</p>
+                    </div>
+                </div>
+            </div>
+            <div class="foterbox2">
+                <p class="foteribigtxt">Let's do this together</p>
+                <p><a href=""> For couriers</a></p>
+                <p><a href=""> For restaurants</a></p>
+                <p><a href=""> For stores</a></p>
+                <p><a href=""> For companies</a></p>
+            </div>
+            <div class="foterbox3">
+                <p class="foteribigtxt">Company</p>
+                <p><a href=""> About us</a></p>
+                <p><a href=""> Jobs</a></p>
+                <p><a href=""> Responsibility</a></p>
+                <p><a href=""> Security</a></p>
+            </div>
+            <div class="foterbox4">
+                <p class="foteribigtxt">Useful links</p>
+                <p><a href=""> Support</a></p>
+                <p><a href=""> Media</a></p>
+                <p><a href=""> Contact</a></p>
+            </div>
+            <div class="foterbox5">
+                <p class="foteribigtxt">Locations <i class="fa-solid fa-location-pin"></i></p>
+                <p>25 Kazbegi Ave.<br>Tbilisi</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190352.33479773515!2d44.67377067141322!3d41.80126187351087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446dd994ed3f67%3A0xed5122f7a5cffbd7!2zMiDhg6Lhg53hg5zhg5AgLSAyIFRvbmEgKE11a2hpYW5pKSBDcmFmdCBCZWVyIGFuZCBCcmV3ZXJ5!5e0!3m2!1sen!2sge!4v1661528013668!5m2!1sen!2sge" width="200" height="100" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Cafe Street Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/cofee.js"></script>
+</body>
+</html>
