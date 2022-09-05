@@ -11,9 +11,9 @@
 body{
     background-color:#f1e6d5;
 }
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
-} */
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -1391,6 +1391,7 @@ footer{
         display: none;
     }
     .foter{
+        width: 390px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1477,6 +1478,25 @@ footer{
         height: 1200px;
         width: 390px;
     }
+    .enjoyText{
+        width: 350px;
+        height: 400px;
+    }
+    .copyright{
+        width: 390px;
+        text-align: center;
+    }
+    .plustxt{
+        font-size: 20px;
+    }
+    .bigtxtaboutus{
+        font-size: 22px;
+    }
+    .aboutustxt1{
+        padding: 10px;
+        text-align: center;
+    }
+
 
     
     
