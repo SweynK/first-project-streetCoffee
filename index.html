@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
     <meta property="og:title" content="Cafe Street" />
@@ -44,7 +45,7 @@
         <div class="popularProduct">
             <p class="popular">Popular <span class="now">Now</span></p>
             <div class="bgbox"></div>
-            <div class="containerForCoffe">
+            <div class="containerForCoffe" data-aos="fade-left">
                 <div class="boxcoffe1">
                     <div class="boxcoffe1img">
                         <div class="ratingbox1">
@@ -146,7 +147,7 @@
         <div class="specialmenu">
             <p class="specialmenutxt">Special menu <span class="serviceLine"> for you</span></p>
             <div class="specialmainbox">
-                <div class="specialbox1">
+                <div class="specialbox1" data-aos="zoom-in-up">
                     <div class="specialimg1">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -165,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specialbox2">
+                <div class="specialbox2" data-aos="zoom-in-up">
                     <div class="specialimg2">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -184,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specialbox3">
+                <div class="specialbox3" data-aos="zoom-in-up">
                     <div class="specialimg3">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -203,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specialbox4">
+                <div class="specialbox4" data-aos="zoom-in-up">
                     <div class="specialimg4">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -222,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specialbox5">
+                <div class="specialbox5" data-aos="zoom-in-up">
                     <div class="specialimg5">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -241,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specialbox6">
+                <div class="specialbox6" data-aos="zoom-in-up">
                     <div class="specialimg6">
                         <div class="ratingbox1">
                             <p class="forrating">4.8
@@ -366,6 +367,13 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+            once: true
+        });
+    </script>
     <script src="js/cofee.js"></script>
 </body>
 </html>
